@@ -1,0 +1,27 @@
+name: ecg_studio
+description: "Create ECG illustrations from SVG paths."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  csv: ^6.0.0
+  file_picker: ^11.0.3
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.3.0
+  svg_path_parser: ^1.1.2
+  web: ^1.1.1
+  xml: ^6.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
